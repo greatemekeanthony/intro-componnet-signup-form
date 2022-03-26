@@ -36,13 +36,14 @@ body{
     background-color: var(--Red);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
     
 }
 .flex{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     max-width: 1000px;
     margin: 0 auto;
     /* display: grid;
@@ -56,9 +57,10 @@ body{
  }
  .head h1{
      color: white;
-     font-size: 2rem;
-     font-family: Arial, Helvetica, sans-serif;
+     font-size: 2.2rem;
+
      margin-bottom: 1.5rem;
+
      
      
 
@@ -69,14 +71,14 @@ body{
      color: white;
      font-size: 16px;
      /* width: 60%; */
-     padding:0 10rem 0 0;
+    
      line-height: 1.6;
  }
 
  /* second section */
  .head2 {
      margin-top: 2rem;
-     max-width: 23pc;
+
      
  }
  .span2{
@@ -132,6 +134,7 @@ body{
     box-sizing: border-box;
   }
 
+
   /* green layout */
 
 .green{
@@ -142,7 +145,7 @@ body{
     background-color: var(--Green);
     color: white;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+
   }
   
   .span3{
@@ -153,6 +156,35 @@ body{
       color:var(--Red);
       /* font-size: 32px; */
   }
-@media screen and (max-width:800) {
-    
+@media screen and (max-width:800px) {
+    .flex{
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .head{
+        width: 100%;
+        text-align: center;
+    }
+
+    .head p{
+        padding:0;
+        padding: 0 1rem;
+        font-size: 1rem;
+     
+    }
+
+    .head2{
+        margin-top: 0;
+        padding: 0 2rem 4rem 2rem;
+    }
+
+     .span1{
+
+        padding: 1.5rem;
+        font-size: 1rem;
+         
+     }
+
+   
 }
