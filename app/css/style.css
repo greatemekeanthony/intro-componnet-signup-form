@@ -1,0 +1,158 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* - Red: hsl(0, 100%, 74%) 
+- Green: hsl(154, 59%, 51%)
+
+### Accent
+
+- Blue: hsl(248, 32%, 49%)
+
+### Neutral
+
+- Dark Blue: hsl(249, 10%, 26%) 
+- Grayish Blue: hsl(246, 25%, 77%) */
+
+
+:root{
+    --Red:hsl(0, 100%, 74%);
+    --Green:hsl(154, 59%, 51%) ;
+    --Blue:hsl(248, 32%, 49%);
+    --DarkBlue:hsl(249, 10%, 26%) ;
+    --GrayishBlue: hsl(246, 25%, 77%);
+
+
+
+}
+
+/* - Family: [Poppins](https://fonts.google.com/specimen/Poppins) */
+
+
+body{
+    /* font-size: 16px; */
+    background-image: url("../css/images/bg-intro-desktop.png");
+    background-color: var(--Red);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    /* display: grid;
+
+    grid-template-columns: repeat(2, 2fr);   */  
+}
+
+ .head{
+   
+     margin-top: 5.5rem;
+ }
+ .head h1{
+     color: white;
+     font-size: 2rem;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-bottom: 1.5rem;
+     
+     
+
+     
+ }
+
+ .head p{
+     color: white;
+     font-size: 16px;
+     /* width: 60%; */
+     padding:0 10rem 0 0;
+     line-height: 1.6;
+ }
+
+ /* second section */
+ .head2 {
+     margin-top: 2rem;
+     max-width: 23pc;
+     
+ }
+ .span2{
+
+    color: white;
+ }
+ .span1{
+    /* border: 2px solid red; */
+    border-radius: 5px;
+     margin-bottom: 1rem;
+     margin-top: 5rem;
+     padding: 2%;
+     border-color: var(--Blue);
+     background-color: var(--Blue);
+     color: var(--GrayishBlue);
+     text-align: center;
+     
+ }
+ .form{
+     /* background-color: white;
+      */
+      border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+ }
+
+ input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  /* green layout */
+
+.green{
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    padding: 2%;
+    background-color: var(--Green);
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .span3{
+      font-size: 11px;
+      color: var(--GrayishBlue);
+  }
+  #lass{
+      color:var(--Red);
+      /* font-size: 32px; */
+  }
+@media screen and (max-width:800) {
+    
+}
